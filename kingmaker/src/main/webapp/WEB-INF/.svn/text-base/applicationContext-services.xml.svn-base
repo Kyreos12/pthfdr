@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.1.xsd 
+                        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+	<!-- Initialisation des variables -->
+	<bean id="parameterAccessor" class="fr.gfi.birtviewer.viewer.util.RequestParameterUtil">
+		<constructor-arg ref="birtEngineService" />
+		<constructor-arg value="/report" />
+		<constructor-arg value="/cache" />
+	</bean>
+	
+	<bean id="birtEngine" class="fr.gfi.birtviewer.birt.engine.BirtEngine" />
+	
+	<!-- Birt Viewer beans -->
+	<bean id="birtEngineService" class="fr.gfi.birtviewer.service.impl.BirtEngineServiceImpl"/>
+	
+	<bean id="requestLoader" class="fr.gfi.birtviewer.viewer.RequestLoader"/>
+	<bean id="requestValidator" class="fr.gfi.birtviewer.viewer.RequestValidator"/>
+	<bean id="requestExecutor" class="fr.gfi.birtviewer.viewer.RequestExecutor"/>
+	
+	<bean id="viewer" class="fr.gfi.birtviewer.viewer.Viewer"/>
+	
+	<bean id="runReport" class="fr.gfi.birtviewer.controller.viewer.RunReportController"/>
+	<bean id="extractdata" class="fr.gfi.birtviewer.controller.viewer.ExtractDataController"/>
+	<bean id="parameterdefn" class="fr.gfi.birtviewer.controller.viewer.ParameterDefnController"/>
+
+	
+	<!-- Services -->
+	<bean id="dataSourcePopulator" class="fr.gfi.birtviewer.service.impl.InitializingServiceImpl"/>
+	
+	<bean id="parametrageService" class="fr.gfi.birtviewer.service.impl.ParametrageServiceImpl"/>
+	<bean id="utilisateurService" class="fr.gfi.birtviewer.service.impl.UtilisateurServiceImpl"/>
+	<bean id="configurationService" class="fr.gfi.birtviewer.service.impl.ConfigurationServiceImpl"/>
+	<bean id="clientService" class="fr.gfi.birtviewer.service.impl.ClientServiceImpl"/>
+	<bean id="typeConfigurationService" class="fr.gfi.birtviewer.service.impl.TypeConfigurationServiceImpl"/>
+	<bean id="smtpService" class="fr.gfi.birtviewer.service.impl.SmtpServiceImpl"/>
+	<bean id="statutService" class="fr.gfi.birtviewer.service.impl.StatutServiceImpl"/>
+	
+	<bean id="tacheService" class="fr.gfi.birtviewer.service.impl.TacheServiceImpl"/>
+	
+	<!-- CRON -->
+	<bean id="cronTacheTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="jobTacheApprovisionnement" />
+		<!-- Cron déclenché -->
+		<property name="cronExpression" value="0 /5 * * * ?"/>
+	</bean>
+	
+	<!-- Détail de la tâche planifiée -->
+	<bean id="jobTacheApprovisionnement" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+	  	<property name="targetObject" ref="tacheService"/>
+	  	<property name="targetMethod" value="run"/>
+	  	<!-- Laisser impérativement à false, ça permet de ne pas lancer une tâche planifiée si 
+	  	   la précédente n'est pas terminée -->
+		<property name="concurrent" value="false"/>
+	</bean>
+	
+	<!-- Gestion des tâches planifiées. Il est important d'ajouter dans la liste des triggers 
+	     chaque tâche planifiée -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+	    <property name="triggers">
+	        <list>
+	            <ref bean="cronTacheTrigger"/>
+	        </list>
+	    </property>
+	</bean>
+	
+	
+</beans>

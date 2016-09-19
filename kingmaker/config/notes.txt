@@ -1,0 +1,25 @@
+ECLIPSE
+-------
+
+Pour assurer un code propre, uniforme et de la meilleure qualité possible, il faut s'équiper de :
+- FindBugs.
+- PMD (appliquer le ruleset-pmd ci-contre).
+- Checkstyle (appliquer checkstyle.xml ci-contre).
+- formatter Eclipse (appliquer formatter-eclipse.xml ci-contre).
+- formatter Eclipse > Save Actions (reproduire la configuration comme indiquée par les screenshots 
+dans eclipse-save-actions).
+
+
+Eclipse - Prérequis :
+checkstyle : http://eclipse-cs.sf.net/update/
+
+Librairies requises :
+- javax.servlet-api
+- spring-webmvc
+- jstl : Pour les tags
+
+Renommer le projet :
+- web.xml (lignes : )
+
+Renommer le package gerco2 :
+- web.xml

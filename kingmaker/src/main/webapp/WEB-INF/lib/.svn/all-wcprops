@@ -1,0 +1,1091 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Birt/!svn/ver/184/birt-viewer/trunk/src/main/webapp/WEB-INF/lib
+END
+org.apache.batik.bridge_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.bridge_1.6.0.v201011041432.jar
+END
+org.eclipse.core.resources_3.7.100.v20110510-0712.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.resources_3.7.100.v20110510-0712.jar
+END
+derby.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/derby.jar
+END
+org.springframework.context-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.context-3.1.0.RELEASE.jar
+END
+javassist-3.11.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/javassist-3.11.0.GA.jar
+END
+commons-digester-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-digester-2.0.jar
+END
+jakarta-oro-2.0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jakarta-oro-2.0.8.jar
+END
+hibernate-spatial-postgis-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/hibernate-spatial-postgis-1.0.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jta.jar
+END
+org.eclipse.datatools.modelbase.derby_1.0.0.v201107221519.jar
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.modelbase.derby_1.0.0.v201107221519.jar
+END
+org.eclipse.equinox.preferences_3.4.2.v20120111-2020.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.equinox.preferences_3.4.2.v20120111-2020.jar
+END
+jaxb-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jaxb-impl.jar
+END
+org.apache.batik.util_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.util_1.6.0.v201011041432.jar
+END
+woodstox.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/woodstox.jar
+END
+org.eclipse.datatools.connectivity_1.2.4.v201202041105.jar
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity_1.2.4.v201202041105.jar
+END
+yuicompressor-2.4.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Birt/!svn/ver/117/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/yuicompressor-2.4.7.jar
+END
+commons-fileupload-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.2.jar
+END
+jackson-mapper-asl-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar
+END
+xwork-core-2.3.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/xwork-core-2.3.4.1.jar
+END
+gmbal-api-only.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/gmbal-api-only.jar
+END
+org.eclipse.core.contenttype_3.4.100.v20110423-0524.jar
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.contenttype_3.4.100.v20110423-0524.jar
+END
+spring-security-taglibs-3.1.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/spring-security-taglibs-3.1.3.RELEASE.jar
+END
+Tidy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/Tidy.jar
+END
+commons-io-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-io-2.0.1.jar
+END
+hsqldb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/hsqldb.jar
+END
+org.eclipse.equinox.app_1.3.100.v20110321.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.equinox.app_1.3.100.v20110321.jar
+END
+jaxws-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jaxws-rt.jar
+END
+org.eclipse.datatools.connectivity.sqm.core_1.2.4.v201201131116.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.sqm.core_1.2.4.v201201131116.jar
+END
+hibernate-spatial-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/hibernate-spatial-1.0.jar
+END
+spring-security-config-3.1.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/spring-security-config-3.1.3.RELEASE.jar
+END
+org.eclipse.datatools.connectivity.apache.derby_1.0.102.v201107221459.jar
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.apache.derby_1.0.102.v201107221459.jar
+END
+stax-ex.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/stax-ex.jar
+END
+org.eclipse.datatools.enablement.oracle_1.0.0.v201107221506.jar
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.oracle_1.0.0.v201107221506.jar
+END
+org.eclipse.datatools.enablement.oracle.dbdefinition_1.0.102.v201107221506.jar
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.oracle.dbdefinition_1.0.102.v201107221506.jar
+END
+org.eclipse.datatools.enablement.mysql_1.0.2.v201109022323.jar
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.mysql_1.0.2.v201109022323.jar
+END
+org.eclipse.equinox.common_3.6.0.v20110523.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.equinox.common_3.6.0.v20110523.jar
+END
+com.lowagie.text_2.1.7.v201004222200.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/com.lowagie.text_2.1.7.v201004222200.jar
+END
+org.springframework.aop-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.aop-3.1.0.RELEASE.jar
+END
+resolver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/resolver.jar
+END
+spring-security-web-3.1.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/spring-security-web-3.1.3.RELEASE.jar
+END
+org.eclipse.datatools.connectivity.db.generic_1.0.1.v201107221459.jar
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.db.generic_1.0.1.v201107221459.jar
+END
+org.apache.batik.parser_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.parser_1.6.0.v201011041432.jar
+END
+jts-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jts-1.8.jar
+END
+org.eclipse.osgi_3.7.2.v20120110-1415.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.osgi_3.7.2.v20120110-1415.jar
+END
+org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition_1.0.4.v201107221502.jar
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition_1.0.4.v201107221502.jar
+END
+ojdbc6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/ojdbc6.jar
+END
+easymock-3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/easymock-3.0.jar
+END
+org.eclipse.emf.ecore.xmi_2.7.0.v20120123-0926.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.emf.ecore.xmi_2.7.0.v20120123-0926.jar
+END
+org.eclipse.emf_2.6.0.v20120123-1045.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.emf_2.6.0.v20120123-1045.jar
+END
+org.springframework.beans-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.beans-3.1.0.RELEASE.jar
+END
+org.apache.xml.resolver_1.2.0.v201005080400.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.xml.resolver_1.2.0.v201005080400.jar
+END
+org.apache.batik.transcoder_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.transcoder_1.6.0.v201011041432.jar
+END
+mailapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/mailapi.jar
+END
+commons-lang3-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-lang3-3.1.jar
+END
+jersey-client-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jersey-client-1.3.jar
+END
+org.eclipse.core.filesystem_1.3.100.v20110423-0524.jar
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.filesystem_1.3.100.v20110423-0524.jar
+END
+org.eclipse.datatools.connectivity.oda.profile_3.2.7.v201112290953.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.oda.profile_3.2.7.v201112290953.jar
+END
+org.apache.xerces_2.9.0.v201101211617.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.xerces_2.9.0.v201101211617.jar
+END
+cglib-nodep-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/cglib-nodep-2.2.jar
+END
+org.eclipse.datatools.enablement.ibm.informix_1.0.1.v201107221502.jar
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.ibm.informix_1.0.1.v201107221502.jar
+END
+org.eclipse.datatools.connectivity.oda.design_3.3.4.v201109211529.jar
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.oda.design_3.3.4.v201109211529.jar
+END
+org.apache.batik.dom.svg_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.dom.svg_1.6.0.v201011041432.jar
+END
+commons-configuration-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-configuration-1.9.jar
+END
+postgis-1.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/postgis-1.5.0.jar
+END
+org.eclipse.equinox.registry_3.5.101.R37x_v20110810-1611.jar
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.equinox.registry_3.5.101.R37x_v20110810-1611.jar
+END
+jaxws-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jaxws-tools.jar
+END
+org.apache.xml.serializer_2.7.1.v201005080400.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.xml.serializer_2.7.1.v201005080400.jar
+END
+commons-validator-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-validator-1.3.1.jar
+END
+hibernate-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/hibernate-annotations.jar
+END
+sqltool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/sqltool.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/standard.jar
+END
+org.springframework.test-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.test-3.1.0.RELEASE.jar
+END
+ognl-3.0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/ognl-3.0.5.jar
+END
+aspectjweaver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/aspectjweaver.jar
+END
+commons-logging-api-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-logging-api-1.1.jar
+END
+jersey-server-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jersey-server-1.3.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+org.eclipse.emf.common_2.7.0.v20120123-0926.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.emf.common_2.7.0.v20120123-0926.jar
+END
+mchange-commons-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/mchange-commons-0.2.jar
+END
+org.apache.batik.xml_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.xml_1.6.0.v201011041432.jar
+END
+org.eclipse.core.runtime_3.7.0.v20110110.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.runtime_3.7.0.v20110110.jar
+END
+struts2-spring-plugin-2.3.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/struts2-spring-plugin-2.3.4.1.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/hibernate3.jar
+END
+streambuffer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/streambuffer.jar
+END
+saaj-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/saaj-api.jar
+END
+org.apache.batik.pdf_1.6.0.v201105071520.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.pdf_1.6.0.v201105071520.jar
+END
+org.eclipse.datatools.enablement.postgresql.dbdefinition_1.0.2.v201110070445.jar
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.postgresql.dbdefinition_1.0.2.v201110070445.jar
+END
+org.eclipse.datatools.enablement.mysql.dbdefinition_1.0.4.v201109022331.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.mysql.dbdefinition_1.0.4.v201109022331.jar
+END
+slf4j-api-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/slf4j-api-1.6.1.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-lang-2.4.jar
+END
+org.eclipse.osgi.services_3.3.0.v20110513.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.osgi.services_3.3.0.v20110513.jar
+END
+objenesis-tck-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/objenesis-tck-1.2.jar
+END
+policy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/policy.jar
+END
+org.apache.batik.svggen_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.svggen_1.6.0.v201011041432.jar
+END
+org.eclipse.datatools.modelbase.sql_1.0.5.v201110151330.jar
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.modelbase.sql_1.0.5.v201110151330.jar
+END
+slf4j-log4j12-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/slf4j-log4j12-1.6.1.jar
+END
+jregex1.2_01.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jregex1.2_01.jar
+END
+org.springframework.transaction-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.transaction-3.1.0.RELEASE.jar
+END
+jaxb-xjc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jaxb-xjc.jar
+END
+org.eclipse.datatools.modelbase.sql.query_1.1.2.v201110151315.jar
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.modelbase.sql.query_1.1.2.v201110151315.jar
+END
+org.w3c.dom.smil_1.0.0.v200806040011.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.w3c.dom.smil_1.0.0.v200806040011.jar
+END
+org.springframework.core-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.core-3.1.0.RELEASE.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jstl.jar
+END
+org.springframework.expression-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.expression-3.1.0.RELEASE.jar
+END
+org.eclipse.datatools.enablement.msft.sqlserver_1.0.1.v201107221504.jar
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.msft.sqlserver_1.0.1.v201107221504.jar
+END
+taglibs-unstandard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/taglibs-unstandard.jar
+END
+jersey-core-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jersey-core-1.3.jar
+END
+org.apache.batik.dom_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.dom_1.6.0.v201011041432.jar
+END
+org.eclipse.datatools.connectivity.console.profile_1.0.10.v201109250955.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.console.profile_1.0.10.v201109250955.jar
+END
+org.eclipse.datatools.enablement.postgresql_1.1.0.v201110070445.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.postgresql_1.1.0.v201110070445.jar
+END
+commons-chain-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-chain-1.2.jar
+END
+jul-to-slf4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jul-to-slf4j-1.6.1.jar
+END
+json-simple-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/json-simple-1.1.1.jar
+END
+org.eclipse.birt.runtime_3.7.2.v20120214-1408.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.birt.runtime_3.7.2.v20120214-1408.jar
+END
+org.eclipse.update.configurator_3.3.100.v20100512.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.update.configurator_3.3.100.v20100512.jar
+END
+javax.wsdl_1.5.1.v201012040544.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/javax.wsdl_1.5.1.v201012040544.jar
+END
+org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.0.1.v201107221459.jar
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.0.1.v201107221459.jar
+END
+aspectjrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/aspectjrt.jar
+END
+org.eclipse.core.jobs_3.5.101.v20120113-1953.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.jobs_3.5.101.v20120113-1953.jar
+END
+org.eclipse.datatools.enablement.hsqldb_1.0.0.v201107221502.jar
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.hsqldb_1.0.0.v201107221502.jar
+END
+jackson-core-asl-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jackson-core-asl-1.9.2.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/log4j-1.2.16.jar
+END
+org.w3c.dom.svg_1.1.0.v201011041433.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.w3c.dom.svg_1.1.0.v201011041433.jar
+END
+aopalliance-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/aopalliance-1.0.jar
+END
+org.w3c.css.sac_1.3.0.v200805290154.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.w3c.css.sac_1.3.0.v200805290154.jar
+END
+ejb3-persistence.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/ejb3-persistence.jar
+END
+firebirdsql-full.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/184/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/firebirdsql-full.jar
+END
+org.apache.batik.util.gui_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.util.gui_1.6.0.v201011041432.jar
+END
+org.eclipse.core.resources_3.7.101.v20120125-1505.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.resources_3.7.101.v20120125-1505.jar
+END
+org.eclipse.datatools.modelbase.dbdefinition_1.0.2.v201107221519.jar
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.modelbase.dbdefinition_1.0.2.v201107221519.jar
+END
+freemarker-2.3.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/freemarker-2.3.19.jar
+END
+com.ibm.icu_4.4.2.v20110823.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/com.ibm.icu_4.4.2.v20110823.jar
+END
+struts2-core-2.3.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/struts2-core-2.3.4.1.jar
+END
+org.springframework.orm-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.orm-3.1.0.RELEASE.jar
+END
+flute.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/flute.jar
+END
+org.springframework.context.support-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.context.support-3.1.0.RELEASE.jar
+END
+org.eclipse.datatools.enablement.ibm.informix.dbdefinition_1.0.4.v201107221502.jar
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.ibm.informix.dbdefinition_1.0.4.v201107221502.jar
+END
+org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.0.2.v201107221459.jar
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.0.2.v201107221459.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-collections-3.1.jar
+END
+org.eclipse.core.expressions_3.4.300.v20110228.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.core.expressions_3.4.300.v20110228.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar
+END
+org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.0.0.v201107221502.jar
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.0.0.v201107221502.jar
+END
+org.eclipse.datatools.enablement.oda.xml_1.2.3.v201112061438.jar
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.oda.xml_1.2.3.v201112061438.jar
+END
+jersey-spring-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jersey-spring-1.3.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/activation.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/commons-beanutils-1.8.0.jar
+END
+jaxws-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jaxws-api.jar
+END
+org.eclipse.datatools.connectivity.oda_3.3.3.v201110130935.jar
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.oda_3.3.3.v201110130935.jar
+END
+postgresql-8.4-703.jdbc4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/postgresql-8.4-703.jdbc4.jar
+END
+org.apache.commons.codec_1.3.0.v201101211617.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.commons.codec_1.3.0.v201101211617.jar
+END
+spring-security-core-3.1.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/spring-security-core-3.1.3.RELEASE.jar
+END
+saaj-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/saaj-impl.jar
+END
+org.eclipse.datatools.connectivity.oda.flatfile_3.1.2.v201112081200.jar
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.oda.flatfile_3.1.2.v201112081200.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/dom4j-1.6.1.jar
+END
+asm-3.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/asm-3.3.jar
+END
+jsr173_api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jsr173_api.jar
+END
+management-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/management-api.jar
+END
+org.springframework.jdbc-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.jdbc-3.1.0.RELEASE.jar
+END
+jsr311-api-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jsr311-api-1.1.1.jar
+END
+junit-4.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/junit-4.4.jar
+END
+jsr250-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jsr250-api.jar
+END
+org.apache.batik.css_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.css_1.6.0.v201011041432.jar
+END
+org.apache.batik.ext.awt_1.6.0.v201011041432.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.apache.batik.ext.awt_1.6.0.v201011041432.jar
+END
+org.eclipse.emf.ecore.change_2.7.1.v20120123-0926.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.emf.ecore.change_2.7.1.v20120123-0926.jar
+END
+org.eclipse.datatools.enablement.ibm.db2.luw_1.0.2.v201107221502.jar
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.ibm.db2.luw_1.0.2.v201107221502.jar
+END
+jersey-json-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jersey-json-1.3.jar
+END
+js.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/js.jar
+END
+org.eclipse.emf.ecore_2.7.0.v20120123-0926.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.emf.ecore_2.7.0.v20120123-0926.jar
+END
+org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.0.1.v201201240349.jar
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.0.1.v201201240349.jar
+END
+smtp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/smtp.jar
+END
+spring-security-acl-3.1.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/spring-security-acl-3.1.3.RELEASE.jar
+END
+org.eclipse.datatools.enablement.oda.ws_1.2.3.v201112061438.jar
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.enablement.oda.ws_1.2.3.v201112061438.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/antlr-2.7.6.jar
+END
+org.eclipse.datatools.connectivity.oda.consumer_3.2.5.v201109151100.jar
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.eclipse.datatools.connectivity.oda.consumer_3.2.5.v201109151100.jar
+END
+struts2-json-plugin-2.3.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/struts2-json-plugin-2.3.4.1.jar
+END
+jaxb-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jaxb-api.jar
+END
+quartz-all-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/quartz-all-1.6.1.jar
+END
+org.springframework.web-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.web-3.1.0.RELEASE.jar
+END
+jsr181-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/jsr181-api.jar
+END
+org.springframework.asm-3.1.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/org.springframework.asm-3.1.0.RELEASE.jar
+END
+postgresql-9.0-802.jdbc4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Birt/!svn/ver/39/birt-viewer/trunk/src/main/webapp/WEB-INF/lib/postgresql-9.0-802.jdbc4.jar
+END

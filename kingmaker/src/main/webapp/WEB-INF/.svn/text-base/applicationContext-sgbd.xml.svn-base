@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+	
+	<!-- Eléments relatifs à la base de données User -->
+	
+	<!-- DataSource User -->
+	<bean id="dataSourceUser" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName">
+			<value>java:comp/env/jdbc/user</value>
+		</property>
+	</bean>
+
+	
+
+	<bean id="transactionManagerUser" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+	    <property name="sessionFactory">
+	    	<ref local="sessionFactoryUser"/>
+	    </property>
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManagerUser"/>
+
+	<bean id="sessionFactoryUser"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+
+		<property name="dataSource" ref="dataSourceUser" />
+
+		<property name="hibernateProperties">
+			<props>
+            	<prop key="hibernate.format_sql">true</prop>
+           	</props>
+		</property>
+
+		<property name="annotatedClasses">
+			<list>
+				<value>fr.gfi.birtviewer.domain.db.Parametrage</value>
+				<value>fr.gfi.birtviewer.domain.db.Role</value>
+				<value>fr.gfi.birtviewer.domain.db.Utilisateur</value>
+				<value>fr.gfi.birtviewer.domain.db.TypeElement</value>
+				<value>fr.gfi.birtviewer.domain.db.TypeConnexion</value>
+				<value>fr.gfi.birtviewer.domain.db.TypeControle</value>
+				<value>fr.gfi.birtviewer.domain.db.Reference</value>
+				<value>fr.gfi.birtviewer.domain.db.Propriete</value>
+				<value>fr.gfi.birtviewer.domain.db.Element</value>
+				<value>fr.gfi.birtviewer.domain.db.Connexion</value>
+				<value>fr.gfi.birtviewer.domain.db.Parametre</value>
+				<value>fr.gfi.birtviewer.domain.db.TypeConfiguration</value>
+				<value>fr.gfi.birtviewer.domain.db.LightClient</value>
+				<value>fr.gfi.birtviewer.domain.db.Client</value>
+				<value>fr.gfi.birtviewer.domain.db.Configuration</value>
+				<value>fr.gfi.birtviewer.domain.db.Valeur</value>
+			</list>
+		</property>
+	</bean>
+</beans>

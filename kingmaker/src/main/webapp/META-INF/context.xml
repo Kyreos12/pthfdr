@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context docBase="gerco2" path="/gerco2" reloadable="true">
+
+	<!-- Resource name="jdbc/xxx" auth="Container" type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000" username="sa"
+		password="" driverClassName="org.hsqldb.jdbcDriver"
+		url="jdbc:hsqldb:mem:xxx" /-->
+</Context>

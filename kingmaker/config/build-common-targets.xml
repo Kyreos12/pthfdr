@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<project basedir="." name="gerco-common">
+
+    <!-- =================================================================== -->
+    <!-- Définition des constantes -->
+    <!-- =================================================================== -->
+    <property name="apps"                  value="E:\Workspace Neon\" />
+    <property name="apps.dir"              value="${apps}/gerco" />
+    <property name="yui.compressor"        value="${apps.dir}/src/main/webapp/WEB-INF/lib/yuicompressor-2.4.7.jar" description="YUI compressor" />
+
+	<!-- =================================================================== -->
+	<!-- macro qui concatène la suite de fichiers en un seul fichier nommé -->
+	<!-- 'dest.file.concat' se trouvant dans le répertoire -->
+	<!-- 'dest.dir.concat'. Ce fichier concaténé est alors minifié par -->
+	<!-- YUI Compressor et sauvegardé dans le répertoire -->
+	<!-- 'dest.dir.concat/dest.file.minified'. Enfin le fichier concaténé -->
+	<!-- est supprimé. -->
+	<!-- =================================================================== -->
+	<macrodef name="concat-yuicompressor"
+		description="Macro qui concatène une suite de
+        fichiers en un seul fichier, ce dernier est ensuite minifié par YUI Compressor">
+		<attribute name="message" />
+		<attribute name="dest.dir.concat" />
+		<attribute name="dest.file.concat" />
+		<attribute name="dest.file.minified" />
+		<element name="filesets" optional="false" />
+		<sequential>
+			<echo message="@{message}" />
+			<!-- concatène les fichiers en un seul -->
+			<concat destfile="@{dest.dir.concat}/@{dest.file.concat}">
+				<filesets />
+			</concat>
+
+			<!-- minimise le fichier -->
+			<apply executable="java" parallel="false" verbose="true"
+				dest="@{dest.dir.concat}">
+				<fileset dir="@{dest.dir.concat}" includes="@{dest.file.concat}" />
+				<arg line="-jar" />
+				<arg path="${yui.compressor}" />
+				<arg line="--charset UTF-8" />
+				<arg line="--line-break 0" />
+				<srcfile />
+				<arg line="-o" />
+				<mapper type="glob" from="@{dest.file.concat}" to="@{dest.file.minified}" />
+				<targetfile />
+			</apply>
+
+			<!-- supprime le fichier concaténé -->
+			<delete file="@{dest.dir.concat}/@{dest.file.concat}" />
+		</sequential>
+	</macrodef>
+
+
+	<!-- ================================================================= -->
+	<!-- Agrège et minifie des fichiers JS / CSS -->
+	<!-- ================================================================= -->
+	<target name="gerco2 - min JS et CSS" description="Agrège et minifie des fichiers JS et CSS">
+		<parallel threadCount="8">
+			<concat-yuicompressor message="Agrégation des fichiers JS"
+				dest.dir.concat="${apps.dir}/src/main/webapp/lib/js" dest.file.concat="gerco2.js"
+                dest.file.minified="gerco2-min.js">
+                <filesets>
+                    <union id="all_build_files">
+                        <fileset id="a" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/jquery-1.11.1.min.js"/></fileset>
+                        <fileset id="d" dir="${apps.dir}/src/main/webapp/"><include name="lib/bootstrap/js/bootstrap.min.js"/></fileset>
+                        <fileset id="e" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/bootstrap-modal/js/bootstrap-modal.js"/></fileset>
+                        <fileset id="f" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/bootstrap-modal/js/bootstrap-modalmanager.js"/></fileset>
+
+                        <fileset id="g" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/datatables/js/jquery.dataTables.js"/></fileset>
+                        <fileset id="h" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/datatables/js/DT_bootstrap.js"/></fileset>
+
+                    	<fileset id="j" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/datetimepicker/js/bootstrap-datetimepicker.min.js"/></fileset>
+                    	<fileset id="k" dir="${apps.dir}/src/main/webapp/"><include name="lib/jquery/datetimepicker/js/locales/bootstrap-datetimepicker.fr.js"/></fileset>
+
+                        <fileset id="s" dir="${apps.dir}/src/main/webapp/"><include name="lib/select2/select2.min.js"/></fileset>
+                        <fileset id="t" dir="${apps.dir}/src/main/webapp/"><include name="lib/select2/select2_locale_fr.js"/></fileset>
+
+                    	<fileset id="u" dir="${apps.dir}/src/main/webapp/"><include name="lib/gerco2/js/fonctions.js"/></fileset>
+                    </union>
+                </filesets>
+            </concat-yuicompressor>
+            
+            <concat-yuicompressor message="Agrégation des fichiers CSS"
+                dest.dir.concat="${apps.dir}/src/main/webapp/lib/gerco2/css" dest.file.concat="gerco2.css"
+                dest.file.minified="gerco2-min.css">
+                <filesets>
+                    <union id="all_build_files">
+                    	<fileset id="a" dir="${apps.dir}/src/main/webapp/"><include name="lib/bootstrap/css/bootstrap-extra.css"/></fileset>
+                    	<fileset id="b" dir="${apps.dir}/src/main/webapp/"><include name="lib/bootstrap/css/gerco.css"/></fileset>
+                        <fileset id="e" dir="${apps.dir}/src/main/webapp/"><include name="lib/select2/select2-gerco.css"/></fileset>
+                    </union>
+                </filesets>
+            </concat-yuicompressor>
+		</parallel>
+	</target>
+</project>

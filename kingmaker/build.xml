@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project name="kingmaker">
+	
+	<!-- ================================================================= -->
+	<!-- Définition des constantes                                         -->
+	<!-- backup.dir : répertoire de destination du projet sauvegardé       -->
+	<!-- ================================================================= -->
+	<property name="backup.dir" value="C:/sauvegardes/tonapps"/>
+	<property name="developpeur" value="Romain"></property>
+	
+	<import file="config\build-common-targets.xml"/>
+</project>

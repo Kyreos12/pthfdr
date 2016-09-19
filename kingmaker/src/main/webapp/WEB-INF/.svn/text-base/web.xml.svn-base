@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+	<display-name>birt-viewer</display-name>
+	
+	<context-param>
+		<param-name>birtviewer.version</param-name>
+		<param-value>2.2</param-value>
+	</context-param>
+	
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/login_error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/views/404.jsp</location>
+	</error-page>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<context-param>
+		<param-name>log4jConfigLocation</param-name>
+		<param-value>classpath:log4j.properties</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>org.apache.commons.logging.Log</param-name>
+		<param-value>org.apache.commons.logging.impl.Log4JLogger</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+		 /WEB-INF/applicationContext-dao.xml,
+		 /WEB-INF/applicationContext-security.xml,
+		 /WEB-INF/applicationContext-services.xml,
+		 /WEB-INF/applicationContext-sgbd.xml
+	 </param-value>
+	</context-param>
+	
+	<session-config>
+		<session-timeout>60</session-timeout>
+	</session-config>
+
+	<listener>
+		<listener-class>fr.gfi.birtviewer.util.context.BirtViewerListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>fr.gfi.birtviewer.listener.SessionListener</listener-class>
+	</listener>
+	<!-- Listener permettant à Spring de prendre en main la journalisation avec log4j
+		 (à mettre avant le ContextLoaderListener) -->
+	<listener>
+		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+		
+	<!-- Filtre de Spring Security, à laisser en premier -->
+	<filter>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- Filtre de Struts2 -->
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+		<servlet-name>MappingServlet</servlet-name>
+		<servlet-class>fr.gfi.birtviewer.servlet.MappingServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MappingServlet</servlet-name>
+		<url-pattern>/run</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MappingServlet</servlet-name>
+		<url-pattern>/preview</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MappingServlet</servlet-name>
+		<url-pattern>/parameter</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MappingServlet</servlet-name>
+		<url-pattern>/frameset</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MappingServlet</servlet-name>
+		<url-pattern>/extractdata</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MappingServlet</servlet-name>
+		<url-pattern>/parameterdefn</url-pattern>
+	</servlet-mapping>
+
+</web-app>

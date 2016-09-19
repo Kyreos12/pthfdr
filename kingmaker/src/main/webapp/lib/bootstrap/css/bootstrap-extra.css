@@ -1,0 +1,244 @@
+/* enrichit le CSS de BootStrap de manière générale */
+
+html{
+    -ms-overflow-style: scrollbar;
+}
+
+body {
+    padding-top: 64px;
+}
+
+.help-block,p {
+    text-align: justify;
+}
+
+form .required label:after, td.required:after {
+    color: #e32;
+    content: '*';
+    display: inline
+}
+
+.form-horizontal .controls-multicolumns220 {
+    width: 220px !important;
+    height: 32px;
+}
+
+.breadcrumb {
+    border: 1px solid #E3E3E3;
+}
+
+table.table thead {
+    background: #F1F1F1 !important; 
+}
+
+.navbar-default .navbar-toggle {
+    border: 0px;
+}
+                
+.navbar-default {
+    background-color: #626f7a;
+    background-image: -moz-linear-gradient(top,#6b7986,#546169);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#6b7986),to(#546169));
+    background-image: -webkit-linear-gradient(top,#6b7986,#546169);
+    background-image: -o-linear-gradient(top,#6b7986,#546169);
+    background-image: linear-gradient(to bottom,#6b7986,#546169);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6b7986',endColorstr='#ff546169',GradientType=0);
+    border-color: #252525;
+}
+
+html body.administration div.navbar.navbar-inverse.navbar-fixed-top ul li:last-child a.dropdown-toggle {
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+@media ( min-width : 980px) and (max-width: 1024px) {
+    html body.administration div.navbar.navbar-inverse.navbar-fixed-top ul li:last-child a.dropdown-toggle {
+        max-width: 90px;
+    }
+}
+
+@media ( min-width : 1025px) and (max-width: 1080px) {
+    html body.administration div.navbar.navbar-inverse.navbar-fixed-top ul li:last-child a.dropdown-toggle {
+        max-width: 120px;
+    }
+}
+
+@media ( min-width : 1081px) and (max-width: 1134px) {
+    html body.administration div.navbar.navbar-inverse.navbar-fixed-top ul li:last-child a.dropdown-toggle {
+        max-width: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    label {
+        font-weight: normal;
+    }
+}
+
+.pre {
+  font-family: Monaco,Menlo,Consolas,Courier New,monospace;
+}
+
+/* alignement */
+.text-left,.table .text-left {
+    text-align: left !important;
+}
+
+.text-right,.table .text-right {
+    text-align: right !important;
+}
+
+.text-center,.table .text-center {
+    text-align: center !important;
+}
+
+a.thumbnail:hover,a.thumbnail:focus {
+    text-decoration: none
+}
+
+.columns200 {
+    column-count: 20;
+    -webkit-column-count: 20;
+    -moz-column-count: 20;
+    column-width: 200px;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+}
+
+.columns350 {
+    column-count: 20;
+    -webkit-column-count: 20;
+    -moz-column-count: 20;
+    column-width: 350px;
+    -webkit-column-width: 350px;
+    -moz-column-width: 350px;
+}
+
+.form-horizontal .columns200 .controls {
+    margin-left: 0px;
+}
+
+.bootstrap-tagsinput {
+    min-width: 206px;
+    display: block !important
+}
+
+/* select2 */
+.select2-drop-active {
+    z-index: 123456 !important
+}
+
+.select2-container .select2-choice {
+    height: 28px !important
+}
+
+.select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice div b {
+    background-position: 0 0px !important
+}
+
+.select2-results .select2-result-label {
+    min-height: 25px !important
+}
+
+/* pour les tableaux dans un select2 (avec formatage donc) */
+.select2-result-label table {
+    margin:0px !important
+}
+
+.select2-choice td {
+    padding:0px !important
+}
+
+.modal-header h3 {
+    margin: 0px
+}
+
+.form-horizontal .form-actions {
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    padding: 18px 0 18px 0;
+    margin: 18px 0 18px 0;
+}
+
+.nav-header {
+    display: block;
+    padding: 3px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #999999;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+.nav li + .nav-header {
+    margin-top: 9px;
+}
+.nav-list {
+/*     padding-left: 15px; */
+/*     padding-right: 15px; */
+    margin-bottom: 15px;
+}
+.nav-list > li > a,
+.nav-list .nav-header {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.nav-list > li > a {
+    padding: 3px 15px;
+}
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #428bca;
+}
+.nav-list [class^="icon-"],
+.nav-list [class*=" icon-"] {
+    margin-right: 2px;
+}
+.nav-list .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+/* .input-group .select2-container .select2-choice:first-child { */
+/*  border-bottom-right-radius: 0; */
+/*  border-top-right-radius: 0; */
+/* } */
+
+.input-group + .select2-container + .select2-choice {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/* Frustratingly the border-collapse:collapse used by Bootstrap makes the column
+   width calculations when using scrolling impossible to align columns. We have
+   to use separate
+ */
+table.table-bordered.dataTable {
+    border-collapse: separate !important;
+}
+table.table-bordered thead th,
+table.table-bordered thead td {
+    border-left-width: 0;
+    border-top-width: 0;
+}
+table.table-bordered tbody th,
+table.table-bordered tbody td {
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+table.table-bordered th:last-child,
+table.table-bordered td:last-child {
+    border-right-width: 0;
+}
+div.dataTables_scrollHead table.table-bordered {
+    border-bottom-width: 0;
+}

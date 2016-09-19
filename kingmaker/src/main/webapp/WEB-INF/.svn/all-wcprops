@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Birt/!svn/ver/184/birt-viewer/trunk/src/main/webapp/WEB-INF
+END
+applicationContext-sgbd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Birt/!svn/ver/150/birt-viewer/trunk/src/main/webapp/WEB-INF/applicationContext-sgbd.xml
+END
+applicationContext-dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Birt/!svn/ver/75/birt-viewer/trunk/src/main/webapp/WEB-INF/applicationContext-dao.xml
+END
+applicationContext-services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Birt/!svn/ver/98/birt-viewer/trunk/src/main/webapp/WEB-INF/applicationContext-services.xml
+END
+applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Birt/!svn/ver/119/birt-viewer/trunk/src/main/webapp/WEB-INF/applicationContext-security.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Birt/!svn/ver/316/birt-viewer/trunk/src/main/webapp/WEB-INF/web.xml
+END

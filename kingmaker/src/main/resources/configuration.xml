@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<drivers>
+		<driver>
+			<name>Postgresql</name>
+			<class>org.postgresql.Driver</class>
+			<pattern>jdbc:postgresql://[host]:[port]/[database]?user=[user]&amp;password=[password]</pattern>
+			<defaultValue>host=127.0.0.1;port=5432;user=postgres;password=geouser</defaultValue>
+		</driver>
+		<driver>
+			<name>Oracle</name>
+			<class>oracle.jdbc.driver.OracleDriver</class>
+			<pattern>jdbc:oracle:thin:[user]/[password]@[host]:[port]:[sid]</pattern>
+			<defaultValue>password=urba;port=1521;sid=GEO;</defaultValue>
+		</driver>
+		<driver>
+			<name>Firebird</name>
+			<class>org.firebirdsql.jdbc.FBDriver</class>
+			<pattern>jdbc:firebirdsql:[host]/[port]:[url]?user=[user]&amp;password=[password]</pattern>
+			<params>ib;gdb</params>
+			<defaultValue>host=127.0.0.1;port=3050;user=sysdba;password=masterkey</defaultValue>
+		</driver>
+		<driver>
+			<name>SQLServer</name>
+			<class>net.sourceforge.jtds.jdbc.Driver</class>
+			<pattern>jdbc:jtds:sqlserver://[host]:[port]/[database];user=[user];password=[password];instance=SQLEXPRESS;DOMAIN=[domaine];</pattern>
+			<defaultValue>host=RJACOT;port=1433;domaine=OLYMPE;user=rj</defaultValue>
+		</driver>
+		<driver>
+			<name>Access</name>
+			<class>sun.jdbc.odbc.JdbcOdbcDriver</class>
+			<pattern>jdbc:odbc:DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=[url];uid=; pwd=[password]</pattern>
+			<defaultValue>url=C:/;password=NONE</defaultValue>
+			<params>mdb;accdb</params>
+		</driver>
+		<driver>
+			<name>ODBC</name>
+			<class>sun.jdbc.odbc.JdbcOdbcDriver</class>
+			<pattern>jdbc:odbc:[database]</pattern>
+		</driver>
+	</drivers>
+</configuration>

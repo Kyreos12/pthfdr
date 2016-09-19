@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<context:annotation-config/>
+
+	<!-- AOP -->
+  	<aop:config>
+		<aop:aspect id="aroundDao" ref="convertDataAccessExceptionAspect">
+			<aop:pointcut id="dao" expression="execution(* fr.gfi.birtviewer.dao.db.*.*(..))"/>
+			<aop:around pointcut-ref="dao" method="aroundMethod"/>
+		</aop:aspect>
+	</aop:config>
+	<bean id="convertDataAccessExceptionAspect" class="fr.gfi.birtviewer.aop.ConvertDataAccessExceptionAspect"/>
+
+	<!-- DAO base User -->
+	<bean id="parametrageDao" class="fr.gfi.birtviewer.dao.db.impl.ParametrageDaoImpl">
+		<property name="sessionFactory" ref="sessionFactoryUser" />
+	</bean>
+	<bean id="utilisateurDao" class="fr.gfi.birtviewer.dao.db.impl.UtilisateurDaoImpl">
+		<property name="sessionFactory" ref="sessionFactoryUser" />
+	</bean>
+	<bean id="clientDao" class="fr.gfi.birtviewer.dao.db.impl.ClientDaoImpl">
+		<property name="sessionFactory" ref="sessionFactoryUser" />
+	</bean>
+	<bean id="configurationDao" class="fr.gfi.birtviewer.dao.db.impl.ConfigurationDaoImpl">
+		<property name="sessionFactory" ref="sessionFactoryUser" />
+	</bean>
+	<bean id="typeConfigurationDao" class="fr.gfi.birtviewer.dao.db.impl.TypeConfigurationDaoImpl">
+		<property name="sessionFactory" ref="sessionFactoryUser" />
+	</bean>
+	<bean id="statutDao" class="fr.gfi.birtviewer.dao.statut.impl.StatutDaoImpl"/>
+	
+</beans>
